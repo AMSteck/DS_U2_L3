@@ -1,0 +1,11 @@
+1. place_token. __check_win and is_winner checks and confirms the player wins while place token is used to play the game
+
+2. I could provide the user various options and have them pick one (a.top left,  b. top middle, etc) or I could put numbers on the side and above the grid and ask them
+for coordinates. i could also ask for the row then column 
+
+3. check win should probably be called at the end of the place token method. it should accept __board so it can check the various lists for 3 in a row
+
+4. a function asking the user for an input and checking said input. there could also be a function to print rules
+
+5. make a for loop to check each row. if all rows are the same then user wins. if not then check the first item in each row to see if they're the same. if not check 
+the other two columns. check [0][0],[1][1], [2][2] for the same symbol and if not check [0][2],[1][1],[2][0] for a win. lastly return
